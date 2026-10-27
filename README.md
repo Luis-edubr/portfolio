@@ -2,6 +2,8 @@
 
 A bilingual portfolio presenting real backend and full stack work by **Luis Eduardo Messias de Oliveira**. The case studies distinguish professional deliveries, private repositories, academic reproduction and personal tools. No proprietary code, internal screenshots or invented metrics are included.
 
+**Live site:** [portfolio-opal-psi-74.vercel.app](https://portfolio-opal-psi-74.vercel.app/pt)
+
 ## Stack
 
 React, TypeScript, Vite, React Router and custom CSS. Content is static and typed; there is no backend or content database. Vercel serves the built `dist/` directory and rewrites deep links to the client application.

@@ -67,8 +67,7 @@ const copy = {
     contactTitle: "Vamos construir a próxima entrega?",
     contactLead:
       "Busco oportunidades em desenvolvimento Backend PHP/Laravel e posições Full Stack compatíveis. Falo português nativo e inglês fluente.",
-    noEmail:
-      "Contato profissional pelo LinkedIn. Currículo disponível mediante solicitação.",
+    noEmail: "Contato profissional pelo LinkedIn.",
     github: "GitHub",
     linkedin: "LinkedIn",
     allWork: "Todos os projetos",
@@ -150,8 +149,7 @@ const copy = {
     contactTitle: "Let’s build the next delivery.",
     contactLead:
       "I’m seeking Backend PHP/Laravel opportunities and compatible Full Stack positions. I speak native Portuguese and fluent English.",
-    noEmail:
-      "Professional contact through LinkedIn. Résumé available on request.",
+    noEmail: "Professional contact through LinkedIn.",
     github: "GitHub",
     linkedin: "LinkedIn",
     allWork: "All projects",
