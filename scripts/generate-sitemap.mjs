@@ -8,11 +8,7 @@ const slugs = [...content.matchAll(/slug:\s*["']([^"']+)["']/g)].map(
   (match) => match[1],
 );
 const host =
-  process.env.SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL &&
-    `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`) ||
-  (process.env.VERCEL_URL && `https://${process.env.VERCEL_URL}`) ||
-  "http://localhost:4173";
+  process.env.SITE_URL || "https://luis-eduardo-portfolio.vercel.app";
 const origin = host.replace(/\/$/, "");
 const paths = [
   "pt",

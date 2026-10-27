@@ -2,7 +2,7 @@
 
 A bilingual portfolio presenting real backend and full stack work by **Luis Eduardo Messias de Oliveira**. The case studies distinguish professional deliveries, private repositories, academic reproduction and personal tools. No proprietary code, internal screenshots or invented metrics are included.
 
-**Live site:** [portfolio-opal-psi-74.vercel.app](https://portfolio-opal-psi-74.vercel.app/pt)
+**Live site:** [luis-eduardo-portfolio.vercel.app](https://luis-eduardo-portfolio.vercel.app/pt)
 
 ## Stack
 
@@ -29,7 +29,7 @@ npm run build
 npm run preview
 ```
 
-`npm run build` writes a sitemap and robots file, checks TypeScript, then produces `dist/`. Set `SITE_URL=https://your-domain.example` for a canonical sitemap URL. On Vercel, its production URL environment variables are used when available. A local build uses `http://localhost:4173` only for the generated sitemap.
+`npm run build` writes a sitemap and robots file, checks TypeScript, then produces `dist/`. The canonical origin defaults to `https://luis-eduardo-portfolio.vercel.app`; set `SITE_URL=https://your-domain.example` to override it.
 
 ## Structure
 
@@ -49,7 +49,7 @@ Add a `CaseStudy` object to `cases` in `src/content.ts`. Fill in both `pt` and `
 
 ## Deployment
 
-Import this repository into Vercel as a Vite project. Use `npm run build` and output directory `dist`. The included `vercel.json` supports direct visits to `/pt/cases/:slug`. Set `SITE_URL` to the final public origin if the default production URL differs from Vercel's environment value. Verify both language routes and case deep links after deployment.
+Import this repository into Vercel as a Vite project. Use `npm run build` and output directory `dist`. The included `vercel.json` supports direct visits to `/pt/cases/:slug`. Verify both language routes and case deep links after deployment.
 
 ## Content boundaries
 
