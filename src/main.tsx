@@ -246,8 +246,14 @@ function Header({ locale }: { locale: Locale }) {
             className="brand"
             aria-label={`${profile.name} — ${t.home}`}
           >
-            <span className="brand-mark">
-              LE<span>.</span>
+            <span className="brand-photo">
+              <img
+                src="/portrait.jpeg"
+                alt=""
+                width="45"
+                height="45"
+                fetchPriority="high"
+              />
             </span>
             <span className="brand-name">
               Luis Eduardo
