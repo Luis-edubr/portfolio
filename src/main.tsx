@@ -100,7 +100,7 @@ const copy = {
     methodSteps: ["Entender", "Especificar", "Construir", "Validar"],
     labTypes: ["PESQUISA", "FERRAMENTA", "ACADÊMICO"],
     focus: "FOCO",
-    caseLabel: "CASE",
+    caseLabel: "ESTUDO",
   },
   en: {
     navWork: "Work",

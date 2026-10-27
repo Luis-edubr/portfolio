@@ -4,7 +4,7 @@ const content = readFileSync(
   new URL("../src/content.ts", import.meta.url),
   "utf8",
 );
-const slugs = [...content.matchAll(/slug: '([^']+)'/g)].map(
+const slugs = [...content.matchAll(/slug:\s*["']([^"']+)["']/g)].map(
   (match) => match[1],
 );
 const host =
