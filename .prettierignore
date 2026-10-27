@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/*.svg
+public/*.png
+public/robots.txt
+public/sitemap.xml
+package-lock.json

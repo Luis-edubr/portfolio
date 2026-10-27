@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "rewrites": [
+    {
+      "source": "/((?!assets/|robots.txt|sitemap.xml|og.png).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
